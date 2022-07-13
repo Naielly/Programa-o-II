@@ -27,6 +27,6 @@ if __name__ == "__main__":
     except OperationalError as err:
         print("ERROU")
 
-    Pessoa.create (cpf = "090.012.919-02", nome = "Sofia Katherine Cimardi", 
-    endereco = "Rua Itapema, 562", telefone = "(47) 9 9618-1422")
+    Pessoa.create (cpf = "000.000.000-00", nome = "Fulano Ciclano", 
+    endereco = "Rua Ipiranga, 0", telefone = "(00) 9 0000-0000")
     '''
